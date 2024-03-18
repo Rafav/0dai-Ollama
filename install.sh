@@ -2,18 +2,14 @@
 
 # If the user isn't root do not run the script 
 
-if [ "$EUID" -ne 0 ]; then
-	echo "[!] Run this script as root."
-	exit 1
-fi
 
 # Full upgrade. BECAREFUL. If you're on Parrot OS, comment this line and do a 'sudo parrot-upgrade'
 
-apt update -y && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 
 # Installing dependencies
 
-apt install git pip python3-tqdm curl python3.11-venv -y
+sudo apt install git pip python3-tqdm curl python3.11-venv -y
 
 # Downloader of 0dAI
 

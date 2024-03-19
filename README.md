@@ -1,6 +1,6 @@
-# 0dAI-Ollama
+# 0dAI in Ollama
 
-Script para instalar 0dai en máquinas sin GPU. Ejecutado en contendor de Debian 12 sobre Proxmox.
+Script para instalar 0dAI en máquinas sin GPU. Ejecutado en contendor de Debian 12 sobre Proxmox.
 
 Basado en https://notluken.github.io/running-0dai-in-ollama.html
 

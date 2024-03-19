@@ -1,4 +1,4 @@
-# 0dai-Ollama
+# 0dAI-Ollama
 
 Script para instalar 0dai en máquinas sin GPU. Ejecutado en contendor de Debian 12 sobre Proxmox.
 
